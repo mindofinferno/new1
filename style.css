@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(Lamborghini-Revuelto.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+nav{
+	background-color: floralwhite;
+	box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1)
+}
+nav ul{
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+nav li{
+	height: 50px;
+}
+
+nav a{
+	height: 100%;
+	padding: 0 50px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	color: #ff7900;
+}
+nav a:hover{
+	background-color: #4a4a4a;
+}
+nav li:first-child{
+	margin-right: auto;
+}
